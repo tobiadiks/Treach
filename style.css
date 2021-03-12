@@ -11,7 +11,7 @@ section {
   
   
   width: 100%;
-  min-height: 3.0em;
+  min-height: 2.0em;
   position: fixed;
   top: 0px;
   display: flex;
@@ -51,8 +51,7 @@ section header ul {
   list-style: none;
 }
 
-section header ul li {
-}
+
 
 section header ul li a {
   padding: 10px;
@@ -68,7 +67,7 @@ section header ul li .opaque-btn {
   width: 100%;
   font-size: 80%;
   background-color: #087af2;
-  margin-left: 20px;
+ 
   padding-top: 5px;
   padding-bottom: 5px;
   color: #fff;
@@ -208,9 +207,16 @@ section header ul li .transparent-btn {
   background-color: #fff;
   margin: 20px;
   padding: 10px ;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.horizontal-flow .card p
+{
+  margin-top: 20px;
+  line-height: 25px;
+  color: #333;
+}
 
 .bg-full
 {
@@ -366,3 +372,94 @@ section header ul li .transparent-btn {
   color: #087af2
 }
 
+.white
+{
+  background-color: #fff;
+  
+}
+
+.white h4{
+  color: #000000;
+}
+
+.white h6
+{
+  color: #000000;
+}
+
+footer
+{
+  background-color: #087af2;
+  width: 100%;
+  min-height: 15vh;
+}
+
+
+.illustration
+{
+  height: 240px;
+  width: 100%;
+}
+
+.illustration-caption
+{
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.center
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container .sub-container
+{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.footer-container .sub-container a
+{
+color: #fff;
+font-size: 10px;
+}
+
+.footer-container .sub-container span
+{
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size: 15px;
+font-weight: 500;
+}
+
+.footer-container .sub-container-center
+{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .sub-container-center span
+{
+text-align: center;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size: 15px;
+font-weight: 500;
+}
