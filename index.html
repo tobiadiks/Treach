@@ -32,7 +32,7 @@
   <div class="container">
     <div class="top-layer">
       <div class="textbox">
-        This is the best digital world for you as a <span>Teacher</span>
+       <span class="animate"></span>
         <div>
           <a class="opaque-btn" href="#">Log in</a><a class="transparent-btn" href="./particles/user/login.html">About
             Us</a>
@@ -121,7 +121,23 @@
   </div>
 
   <!-- Project -->
-  <script src="main.js"></script>
+  <script src="./assets/type/typed.js"></script>
+  <script>
+    var typed = new Typed('.animate', {
+      strings: [
+        "Do you desire to learn ?",
+        "Learn from Africa's best teachers",
+        "Learning support to keep your education on course",
+        "Treach, to reach your goals",
+        "Treach, re-imagine what's possible as an educator"
+    ],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 500,
+      startDelay: 1000,
+      loop: true,
+    });
+  </script>
 </body>
 
 </html>
