@@ -210,7 +210,8 @@ body{
 
 canvas{
   display:block;
-
+  vertical-align:bottom;
+  min-height: 100vh;
 }
 
 
