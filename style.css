@@ -132,25 +132,17 @@ section header ul li .transparent-btn {
   margin-top: 70px;
   color: rgb(90, 90, 90);
   margin-left: 10px;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 60px;
   padding-right: 30px;
 }
 
 .container .top-layer .textbox span {
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(90, 90, 90);
-  padding: 10px;
-  transition: 1s;
 }
 
-.container .top-layer .textbox span:hover {
-  font-weight: 700;
-  background-color: #087af2;
-  color: #fff;
-  padding: 10px;
-}
 
 .container .top-layer .textbox div {
   margin-top: 20px;
