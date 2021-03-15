@@ -7,19 +7,15 @@
   box-sizing: border-box;
 }
 
-.active
-{
+.active {
   background-color: #087af2;
   border-radius: 20px;
   color: #fff;
-  
 }
 
 section {
-  
-  
   width: 100%;
-  min-height: 0.0em;
+  min-height: 0em;
   position: fixed;
   top: 0px;
   display: flex;
@@ -49,11 +45,9 @@ header {
   color: #087af2;
 }
 
-.logo img
-{
+.logo img {
   height: 2.8em;
   width: 2.8em;
-  
 }
 
 section header ul {
@@ -66,8 +60,6 @@ section header ul {
   list-style: none;
 }
 
-
-
 section header ul li a {
   padding: 10px;
   text-decoration: none;
@@ -75,9 +67,7 @@ section header ul li a {
   font-size: 12px;
   font-weight: 400;
   margin: 10px 10px 10px 0px;
- 
 }
-
 
 section header ul li .opaque-btn {
   text-align: center;
@@ -109,7 +99,7 @@ section header ul li .transparent-btn {
 }
 
 .container {
-  margin-top:15px;
+  margin-top: 15px;
   width: 100%;
   position: relative;
   display: flex;
@@ -117,7 +107,6 @@ section header ul li .transparent-btn {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(250, 250, 250);
-  
 }
 
 .image {
@@ -127,8 +116,6 @@ section header ul li .transparent-btn {
   margin-top: 30px;
   transition: 1s;
 }
-
-
 
 .container .top-layer {
   display: flex;
@@ -150,7 +137,6 @@ section header ul li .transparent-btn {
   font-weight: 500;
   color: rgb(90, 90, 90);
 }
-
 
 .container .top-layer .textbox div {
   margin-top: 20px;
@@ -221,13 +207,23 @@ section header ul li .transparent-btn {
   flex-wrap: wrap;
 }
 
+.horizontal-flow a {
+  text-decoration: none;
+}
+
+.horizontal-flow a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
 .horizontal-flow .card {
   border-radius: 10px;
   width: 280px;
   height: 300px;
   background-color: #fff;
   margin: 20px;
-  padding: 10px ;
+  margin-top: 30px;
+  padding: 10px;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -240,96 +236,79 @@ section header ul li .transparent-btn {
   height: 300px;
   background-color: #fff;
   margin: 20px;
-  padding: 10px ;
+  padding: 10px;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
- 
 }
 
-.horizontal-flow .card p
-{
+.horizontal-flow .card p {
   margin-top: 20px;
   line-height: 25px;
   color: #333;
 }
 
-
-.white
-{
+.white {
   background-color: #fff;
-  
 }
 
-.white h4{
+.white h4 {
   color: #000000;
 }
 
-.white h6
-{
+.white h6 {
   color: #000000;
 }
 
-footer
-{
+footer {
   background-color: #087af2;
   width: 100%;
-  
 }
 
-
-.illustration
-{
+.illustration {
   height: 240px;
   width: 100%;
 }
 
-.illustration-caption
-{
+.illustration-caption {
   font-weight: 600;
   color: #333;
   text-align: center;
   width: 100%;
 }
 
-.center
-{
+.center {
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-.footer-container
-{
+.footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-container .sub-container
-{
+.footer-container .sub-container {
   display: flex;
   flex-direction: column;
   margin: 30px;
 }
 
-.footer-container .sub-container a
-{
-color: #fff;
-font-size: 12px;
+.footer-container .sub-container a {
+  color: #fff;
+  font-size: 12px;
 }
 
-.footer-container .sub-container span
-{
-justify-content: center;
-align-items: center;
-color: #fff;
-font-size: 12px;
-font-weight: 500;
+.footer-container .sub-container span {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.footer-container .sub-container-center
-{
+.footer-container .sub-container-center {
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -337,22 +316,17 @@ font-weight: 500;
   align-items: center;
 }
 
-.footer-container .sub-container-center span
-{
-text-align: center;
-justify-content: center;
-align-items: center;
-color: #fff;
-font-size: 12px;
-font-weight: 500;
-
+.footer-container .sub-container-center span {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-
-
-
-.container-resource{
-  margin-top:20px;
+.container-resource {
+  margin-top: 20px;
   width: 100%;
   position: relative;
   display: flex;
@@ -360,13 +334,9 @@ font-weight: 500;
   justify-content: space-between;
   align-items: center;
   background-color: #f8f8f8;
-  
-  
 }
 
-.content-list
-{
-  
+.content-list {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -375,20 +345,16 @@ font-weight: 500;
   margin: 20px;
   margin-top: 100px;
   width: 100%;
-  
 }
 
-.content-list a{
+.content-list a {
   text-decoration: none;
   width: 100%;
   display: flex;
   flex-direction: column;
-  
- 
 }
 
-.content-list .list-item
-{
+.content-list .list-item {
   height: 260px;
   width: 280px;
   display: flex;
@@ -397,31 +363,21 @@ font-weight: 500;
   align-items: center;
   background-color: #fff;
   margin: 10px;
-  
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.212), 0 1px 7px 0 rgba(0, 0, 0, 0.075);
- 
 
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.212), 0 1px 7px 0 rgba(0, 0, 0, 0.075);
 }
 
-
-
-.content-list .list-item img
-{
+.content-list .list-item img {
   position: relative;
   width: 280px;
   height: 220px;
-  
-
-
 }
 
-.content-list .list-item .list-caption
-{
+.content-list .list-item .list-caption {
   height: 40px;
   margin: 10px;
   text-transform: uppercase;
   font-weight: 500;
   color: #087af2;
   font-size: 10px;
-  
 }
