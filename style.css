@@ -107,6 +107,7 @@ section header ul li .transparent-btn {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(250, 250, 250);
+  min-height: 100vh;
 }
 
 .image {
@@ -281,6 +282,7 @@ footer {
   align-items: center;
   justify-content: center;
   display: flex;
+  flex-direction: column;
 }
 
 .footer-container {
@@ -565,7 +567,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 100vh;
     flex-direction: row;
     margin: 20px;
     margin-top: 30px;
@@ -577,10 +578,14 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-min-height: 100vh;
+    align-items: flex-start;
     flex-wrap:wrap ;
 
+  }
+  
+  .fill
+  {
+    min-height: 100vh;
   }
    
   
@@ -663,7 +668,7 @@ min-height: 100vh;
   {
 
     padding: 10px;
-    width: 76%;
+    width: 79%;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -749,7 +754,7 @@ min-height: 100vh;
   }
 
   .res-content .resource-img{
-    height: 180px;
+    height: 200px;
     margin: 20px 0px;
     width: 100%;
     object-fit: cover;
@@ -757,13 +762,14 @@ min-height: 100vh;
   }
 
   .res-content h1{
-    margin: 20px;
+    margin: 20px 0px;
     color: #087af2;
+    text-align: center
   }
 
   .res-content h4{
     margin: 0px 20px;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 30px;
     padding-bottom: 40px;
   }
