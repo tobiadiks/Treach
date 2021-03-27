@@ -728,28 +728,32 @@ footer {
   }
 
   .res-content {
-    min-height: 20vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    margin: 20px;
     margin-top: 30px;
     width: 100%;
+    
   }
 
   .res-content .resource-img{
     height: 180px;
-    margin: 20px;
+    margin: 20px 0px;
     width: 100%;
     object-fit: cover;
+    padding: 20px;
   }
 
   .res-content h1{
     margin: 20px;
+    color: #087af2;
   }
 
   .res-content h4{
     margin: 0px 20px;
     font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 40px;
   }
