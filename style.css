@@ -547,9 +547,7 @@ footer {
      font: normal 75% Poppins, Helvetica, sans-serif;
    }
    
-   canvas {
-   }
-   
+
    /* ---- particles.js container ---- */
    
    #particles-js {
@@ -564,7 +562,6 @@ footer {
    
    
    .content-list-res {
-    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
