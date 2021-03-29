@@ -326,6 +326,14 @@ footer {
   color: #fff;
   font-size: 12px;
   font-weight: 500;
+  
+}
+
+.footer-container .sub-container-center span a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .container-resource {
@@ -829,6 +837,17 @@ footer {
     font-size: 12px;
     font-weight: 600;
     border: 1px inset #087af2;
+  }
+  
+  .profile .login-card-l textarea
+  {
+    border-radius: 3px;
+     width: 200px;
+     height: 200px;
+     margin-top: 20px;
+     padding-left: 10px;
+     color: #c5c5c5;
+     border: 0.5px solid #c5c5c5;
   }
 
   .sd-profile img{
