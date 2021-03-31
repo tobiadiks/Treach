@@ -325,6 +325,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .footer-container .sub-container {
@@ -459,6 +460,7 @@ footer {
      align-items: center;
      flex-direction: column;
      flex-wrap: wrap;
+     margin-top: 50px;
    }
    
    .login-card span {
@@ -548,6 +550,7 @@ footer {
      align-items: center;
      flex-direction: column;
      flex-wrap: wrap;
+     margin-top: 50px;
    }
    
    .login-card-l span {
@@ -606,6 +609,7 @@ footer {
      background-size: cover;
      background-position: 50% 50%;
      background-repeat: no-repeat;
+     min-height: 100vh;
    }
    
    
