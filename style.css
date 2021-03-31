@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .active {
@@ -114,7 +115,7 @@ section header ul li .transparent-btn {
   width: 100%;
   height: 360px;
   object-fit: cover;
-  margin-top: 30px;
+  margin-top: 40px;
   transition: 1s;
 }
 
@@ -122,6 +123,7 @@ section header ul li .transparent-btn {
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  
 }
 
 .container .top-layer .textbox {
@@ -175,16 +177,48 @@ section header ul li .transparent-btn {
   border-radius: 3px;
 }
 
+.top-layer .onboard-container
+{
+  margin-top: 20px;
+  width: auto;
+
+}
+
+.top-layer .onboard-container .circle
+{
+  left: 0;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(230, 187, 107, 0.472);
+  clip-path: circle(40%);
+}
+
+.top-layer .onboard-container .circle-2
+{
+  right: 0;
+  bottom: 0px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(190, 136, 37, 0.726);
+  clip-path: circle(40%);
+}
+
+
+
 .second-layer {
   background-color: #087af2;
-  width: 100%;
+  margin: 20px;
   min-height: 500px;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  
 }
 
 .second-layer h4 {
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   text-align: center;
   font-weight: 600;
@@ -193,7 +227,7 @@ section header ul li .transparent-btn {
 
 .second-layer h6 {
   word-wrap: break-word;
-  font-size: 10px;
+  font-size: 14px;
   color: #fff;
   text-align: center;
   font-weight: 300;
@@ -275,6 +309,7 @@ footer {
 .illustration-caption {
   font-weight: 600;
   color: #333;
+  font-size: 14px;
   text-align: center;
   width: 100%;
 }
@@ -300,14 +335,14 @@ footer {
 
 .footer-container .sub-container a {
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footer-container .sub-container span {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -324,7 +359,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   
 }
@@ -332,7 +367,7 @@ footer {
 .footer-container .sub-container-center span a {
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
