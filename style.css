@@ -910,3 +910,36 @@ footer {
     
   }
   
+  .container-career
+  {
+     min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    background: #fff;
+  }
+  
+  .career-content
+  {
+    min-height: 100vh;
+   margin-top: 40px; 
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .career-content h1{
+    text-align: center;
+    color: #363636;
+  }
+  
+  .career-content .career-img
+  {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .career-content .jobs{
+    font-size: 25px;
+    color: #595959;
+  }
