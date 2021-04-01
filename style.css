@@ -123,6 +123,7 @@ section header ul li .transparent-btn {
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 
@@ -177,6 +178,10 @@ section header ul li .transparent-btn {
   border-radius: 3px;
 }
 
+.container .top-layer .textbox .sub-textbox {
+  width: 260px;
+}
+
 .top-layer .onboard-container
 {
   margin-top: 20px;
@@ -192,6 +197,7 @@ section header ul li .transparent-btn {
   height: 100px;
   background-color: rgba(230, 187, 107, 0.472);
   clip-path: circle(40%);
+  
 }
 
 .top-layer .onboard-container .circle-2
@@ -484,7 +490,7 @@ footer {
      height: 30px;
      margin-top: 20px;
      padding-left: 10px;
-     color: #c5c5c5;
+     color: #494949;
      border: 0.5px solid #c5c5c5;
    }
    
@@ -814,7 +820,8 @@ footer {
   .res-content h1{
     margin: 20px 0px;
     color: #087af2;
-    text-align: center
+    text-align: center;
+    font-size: 18px;
   }
 
   .res-content h4{
@@ -822,6 +829,8 @@ footer {
     font-weight: 500;
     line-height: 30px;
     padding-bottom: 40px;
+    text-align: justify;
+    font-size: 15px;
   }
 
 
