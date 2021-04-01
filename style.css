@@ -180,6 +180,8 @@ section header ul li .transparent-btn {
 
 .container .top-layer .textbox .sub-textbox {
   width: 260px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .top-layer .onboard-container
@@ -191,24 +193,32 @@ section header ul li .transparent-btn {
 
 .top-layer .onboard-container .circle
 {
+  display: flex;
   left: 0;
   position: absolute;
   width: 100px;
   height: 100px;
   background-color: rgba(230, 187, 107, 0.472);
   clip-path: circle(40%);
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
   
 }
 
 .top-layer .onboard-container .circle-2
 {
+  display: flex;
   right: 0;
   bottom: 0px;
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: rgba(190, 136, 37, 0.726);
+  background-color: rgba(190, 136, 37, 0.526);
   clip-path: circle(40%);
+  align-items:center;
+  justify-content: center;
+  font-size: 30px;
 }
 
 
